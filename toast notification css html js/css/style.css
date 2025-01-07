@@ -20,7 +20,6 @@ body {
 .toast {
     padding: 15px 20px;
     border-radius: 8px;
-    background: #333;
     color: white;
     font-size: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,6 +27,11 @@ body {
     transform: translateX(100%);
     animation: slideIn 0.5s forwards, fadeOut 4s forwards;
 }
+
+.toast.success { background: #28a745; }
+.toast.error { background: #dc3545; }
+.toast.warning { background: #ffc107; }
+.toast.info { background: #17a2b8; }
 
 @keyframes slideIn {
     to {

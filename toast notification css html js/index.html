@@ -7,7 +7,10 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <button onclick="showToast('This is a toast notification!')">Show Toast</button>
+    <button onclick="showToast('This is a success message!', 'success')">Success</button>
+    <button onclick="showToast('This is an error message!', 'error')">Error</button>
+    <button onclick="showToast('This is a warning message!', 'warning')">Warning</button>
+    <button onclick="showToast('This is an info message!', 'info')">Info</button>
 
     <div class="toast-container" id="toast-container"></div>
 
